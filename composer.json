@@ -1,0 +1,29 @@
+{
+    "name": "tprog/yii2-payment",
+    "description": "Extension for get payment in yii2 projects",
+    "type": "yii2-extension",
+    "keywords": ["yii2"," payment"," webmoney"," interkassa"],
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Tema",
+            "email": "taxist@ua.fm"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "support": {
+        "source": "https://github.com/tprog/yii2-payment"
+    },
+    "autoload": {
+        "psr-4": {
+            "tprog\\payment\\": "src/"
+        }
+    },
+    "extra": {
+        "bootstrap": "tprog\\payment\\Bootstrap"
+    }
+
+}
